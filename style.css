@@ -1,0 +1,114 @@
+body {
+    background-color: #FEDDCD;
+    color: #8C2F39 ;
+    font-family: Courier
+    background: white;
+    padding: 60px;
+    margin: 70px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    color: black;
+    border-radius: 4px;
+}
+
+h1 {
+   color: #E84855;
+   font-family: 'Wallpoet', cursive;
+   font-weight: 800;
+   letter-spacing: 5px;
+   font-size: 32px;  
+}
+
+a {
+	font-weight: 500;
+	font-size: 20;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+h2 {
+  font-family: 'Baloo Bhai', cursive;
+  color: #8C2F39;
+}
+
+h3 {
+    font-family: 'Hind Vadodara', sans-serif;
+    color: #8C2F39;
+}
+
+i {
+	font-size:30px;
+	color:#E84855;
+}
+
+p { 
+  font-size: 25px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container { 
+      width: 400px; 
+  }
+}
+
+.card-white {
+  background-color: #F5E3DA;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba (0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 40%;
+}
+
+.btn-blue {
+  background-color: #E84855;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left:  0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+}
+
+.list-inline i:hover {
+  font-size: 50px;
+  color: black;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
